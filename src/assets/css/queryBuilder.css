@@ -1,0 +1,25 @@
+.group {
+    background: transparent !important;
+    border: 1px solid rgb(0 0 0 / 20%)!important;
+}
+
+.query-builder {
+    margin: 0 !important;
+}
+
+.group--children > .group-or-rule-container > .group-or-rule::before, .group--children > .group-or-rule-container > .group-or-rule::after {
+    border: 0;
+}
+
+.query-spacing {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.query-builder-container {
+    padding: 0px !important;
+}
+
+.query-border {
+    border: 1px solid rgb(0 0 0 / 20%)
+}
